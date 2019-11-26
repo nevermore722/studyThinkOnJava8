@@ -64,6 +64,7 @@ public class ClassFunctionals {
 
     /**
      * 请注意，每个方法名称都是随意的（如 f1()，f2()等）。正如你刚才看到的，一旦将方法引用赋值给函数接口，我们就可以调用与该接口关联的函数方法。 在此示例中为 get()、compare()、accept()、apply() 和 test()。
+     *
      * @param args
      */
     public static void main(String[] args) {
@@ -81,12 +82,12 @@ public class ClassFunctionals {
         cc = bif.apply(new AA(), new BB());
         Predicate<AA> p = ClassFunctionals::f7;
         boolean result = p.test(new AA());
-        BiPredicate<AA,BB> bip = ClassFunctionals::f8;
-        result = bip.test(new AA(),new BB());
+        BiPredicate<AA, BB> bip = ClassFunctionals::f8;
+        result = bip.test(new AA(), new BB());
         UnaryOperator<AA> uo = ClassFunctionals::f9;
         AA aa = uo.apply(new AA());
         BinaryOperator<AA> bo = ClassFunctionals::f10;
-        aa = bo.apply(new AA(),new AA());
+        aa = bo.apply(new AA(), new AA());
     }
 
 }
