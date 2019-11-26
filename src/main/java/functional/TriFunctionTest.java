@@ -8,9 +8,6 @@ package functional;
  * @version: 1.0
  */
 // functional/TriFunctionTest.java
-
-import com.alibaba.fastjson.JSON;
-
 /**
  * 简单测试，验证它是否有效
  */
