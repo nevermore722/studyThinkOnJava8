@@ -1,3 +1,5 @@
+package streams;
+
 import java.util.Random;
 
 /**
@@ -7,6 +9,7 @@ import java.util.Random;
  * @modified By：
  * @version: 1.0
  */
+// streams/Randoms.java
 public class Randoms {
 
 

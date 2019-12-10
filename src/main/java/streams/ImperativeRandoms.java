@@ -1,3 +1,5 @@
+package streams;
+
 import java.util.Random;
 import java.util.SortedSet;
 import java.util.TreeSet;
