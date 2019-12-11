@@ -38,7 +38,7 @@ public class FileToWordsBuilder {
   }
 
   public static void main(String[] args) throws Exception {
-    //书上为  new FileToWordsBuilder("Cheese.dat")    idea不知道为什么这样的路径取不到
+    //书上为  new FileToWordsBuilder("Cheese.dat")    目前采用的是相对于工程的相对路径，应该与编译路径有关
     new FileToWordsBuilder("./src/main/java/streams/Cheese.dat")
         .stream()
         .limit(7)
