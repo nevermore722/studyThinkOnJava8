@@ -11,6 +11,7 @@ import static java.util.stream.LongStream.*;
  * @modified By：
  * @version: 1.0
  */
+// streams/Prime.java
 
 /**
  * distinct()：在 Randoms.java 类中的 distinct() 可用于消除流中的重复元素。相比创建一个 Set 集合，该方法的工作量要少得多。
