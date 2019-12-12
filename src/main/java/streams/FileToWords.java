@@ -12,6 +12,12 @@ import java.util.stream.Stream;
  * @modified By：
  * @version: 1.0
  */
+
+/**
+ * stream() 现在是一个静态方法，因为它可以自己完成整个流创建过程。
+ *
+ * 注意：\\W+ 是一个正则表达式。他表示“非单词字符”，+ 表示“可以出现一次或者多次”。小写形式的 \\w 表示“单词字符”。
+ */
 public class FileToWords {
 
   public static Stream<String> stream(String filePath) throws Exception {
