@@ -1,8 +1,8 @@
 # studyThinkOnJava8
 
-    studyThinkOnJava8，学习java编程思想（基于java8）  
-    参考书目：`《On Java 8》`中文版，又名`《Java编程思想》`  
-原书地址：[《On Java 8》](https://github.com/LingCoder/OnJava8)
+    studyThinkOnJava8，开始学习java编程思想（基于java8）  
+    参考书目：《On Java 8》中文版，又名《Java编程思想》` 
+`原书地址`：[《On Java 8》](https://github.com/LingCoder/OnJava8)
 
 ---
 
