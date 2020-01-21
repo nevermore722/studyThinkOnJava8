@@ -44,7 +44,12 @@
             <version>5.5.2</version>
             <scope>test</scope>
         </dependency>
-
+        <!-- 2020_1_21引入Guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>28.1-jre</version>
+        </dependency>
 
     </dependencies>
 
